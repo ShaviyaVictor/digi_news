@@ -9,13 +9,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { NewsapiservicesService } from './service/newsapiservices.service';
 import { TechnewsComponent } from './technews/technews.component';
 import { BiznewsComponent } from './biznews/biznews.component';
+import { DigicellComponent } from './digicell/digicell.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopheadingComponent,
     TechnewsComponent,
-    BiznewsComponent
+    BiznewsComponent,
+    DigicellComponent
   ],
   imports: [
     BrowserModule,
