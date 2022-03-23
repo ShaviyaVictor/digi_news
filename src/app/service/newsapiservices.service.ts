@@ -15,6 +15,9 @@ export class NewsapiservicesService {
   // Key for - Tech News
   techNewsUrl = 'https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=4b36014a7947493f9e0447b1e431d439';
 
+  // Business news URL
+  bizNewsUrl = 'https://newsapi.org/v2/top-headlines/sources?category=businessapiKey=4b36014a7947493f9e0447b1e431d439'
+
   // top headlines function
   topHeading() : Observable<any> {
     return this._http.get(this.allSourcesUrl);
@@ -23,6 +26,11 @@ export class NewsapiservicesService {
   // tech news function
   techNewsProperties() : Observable<any> {
     return this._http.get(this.techNewsUrl);
+  }
+
+  // business news function
+  bizNewsProperties() : Observable<any> {
+    return this._http.get(this.bizNewsUrl);
   }
 
 }
