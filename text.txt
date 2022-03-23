@@ -1,7 +1,7 @@
 API KEY=4b36014a7947493f9e0447b1e431d439
 
 Key for - News and Logo
-ALL SOURCES API=https://newsapi.org/v2/top-headlines/sources?apiKey=API_KEY
+ALL SOURCES API=https://newsapi.org/v2/top-headlines/sources?apiKey=4b36014a7947493f9e0447b1e431d439
 
 Key for - Digicel
 Top headlines in the US=https://newsapi.org/v2/top-headlines?country=us&apiKey=4b36014a7947493f9e0447b1e431d439
