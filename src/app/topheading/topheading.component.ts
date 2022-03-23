@@ -13,7 +13,7 @@ export class TopheadingComponent implements OnInit {
   ngOnInit(): void {
 
     this._services.topHeading().subscribe((result)=>{
-      console.log('results')
+      console.log(result)
     })
 
   }
