@@ -37,6 +37,7 @@ a, button {
 .logo {
   font-size: 1.5em;
   font-family: 'Lora', serif;
+  color: #ED4430;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -88,7 +89,7 @@ a {
 }
 
 .futa:hover {
-  color: #8ED52E  !important;
+  color: #ED4430  !important;
 }
 /* End of Footer styles */
 
