@@ -11,3 +11,6 @@ Just Business sources=https://newsapi.org/v2/top-headlines/sources?category=busi
 
 Key for - Tech
 TechCrunch and The Next Web=https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=4b36014a7947493f9e0447b1e431d439
+
+
+https://raw.githubusercontent.com/solodev/recent-blog-posts/master/images/news-1.jpg
