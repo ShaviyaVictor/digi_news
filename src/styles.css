@@ -1,1 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
+  
+/* font-family: 'Lora', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+/* For titles and headings
+font-family: 'Old Standard TT', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+/* For paragraphs
+font-family: 'Karma', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+/* For Links and NavBar
+font-family: 'Marcellus', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+
+
+/* Start of NavBar styles */
+body {
+  background: #FFF;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  color: #18422E;
+}
+
+p {
+  font-family: 'Karma', serif;
+  color: #18422E;
+}
+
+a, button {
+  font-family: 'Marcellus', serif;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-family: 'Lora', serif;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #161f60;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  font-weight: bold;
+}
+
+.site-header .navbar {
+  background-color: #FFF;
+}
+/* End of NavBar styles */
+
+
+
+/* Start of body styles */
+
+
+
+/* End of body styles */
+
+
+
+/* Start of Footer styles */
+footer {
+  
+  width: 100%;
+  padding: 0.3em;
+}
+
+.mt-2em {
+  margin: 1.5em 0em 1.5em 0em !important;
+}
+
+.icons {
+  display: inline !important;
+}
+
+.futa {
+  margin: 1em;
+  color: #000 !important;
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.futa:hover {
+  color: #8ED52E  !important;
+}
+/* End of Footer styles */
+
+
+
+/* Responsive Styles */
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media screen and (max-width: 767px) {
+  
+}
+
+@media screen and (max-width: 575px) {
+  
+}
+
+
+
+
