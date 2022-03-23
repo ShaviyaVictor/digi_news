@@ -11,6 +11,9 @@ import { TechnewsComponent } from './technews/technews.component';
 import { BiznewsComponent } from './biznews/biznews.component';
 import { DigicellComponent } from './digicell/digicell.component';
 
+// loading bar for HttpClient import:
+import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +26,8 @@ import { DigicellComponent } from './digicell/digicell.component';
     BrowserModule,
     AppRoutingModule,
 
-    HttpClientModule
+    HttpClientModule,
+    LoadingBarHttpClientModule
   ],
   providers: [NewsapiservicesService],
   bootstrap: [AppComponent]
