@@ -13,7 +13,7 @@ The user should be able to:
 
 #### Live link to site
 The project was deployed to GitHub pages for publication.     
-To view the [project's live site](##).
+To view the [project's live site](https://github.com/ShaviyaVictor/digi_news/blob/main/src/assets/digi_news_screenshot.png).
 
 #### Author
 **Victor Shaviya**
@@ -40,7 +40,7 @@ Moringa School Core Student.
 - Typescript - to define the logic code
 
 ## License and Copyright Information
-[MIT License](#)
+[MIT License](https://github.com/ShaviyaVictor/digi_news/blob/main/LICENSE)
    
   
 * **© Victor Shaviya**, API consumption personal project.        
