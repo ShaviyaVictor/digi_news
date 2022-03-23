@@ -16,7 +16,7 @@ export class NewsapiservicesService {
   techNewsUrl = 'https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=4b36014a7947493f9e0447b1e431d439';
 
   // Business news URL
-  bizNewsUrl = 'https://newsapi.org/v2/top-headlines/sources?category=businessapiKey=4b36014a7947493f9e0447b1e431d439'
+  bizNewsUrl = 'https://newsapi.org/v2/everything?q=bitcoin&apiKey=4b36014a7947493f9e0447b1e431d439'
 
   // top headlines function
   topHeading() : Observable<any> {
