@@ -18,6 +18,9 @@ export class NewsapiservicesService {
   // Business news URL
   bizNewsUrl = 'https://newsapi.org/v2/everything?q=bitcoin&apiKey=4b36014a7947493f9e0447b1e431d439'
 
+  // Digicell business news URL
+  digiNewsUrl = 'https://newsapi.org/v2/top-headlines?category=business&apiKey=4b36014a7947493f9e0447b1e431d439'
+
   // top headlines function
   topHeading() : Observable<any> {
     return this._http.get(this.allSourcesUrl);
@@ -31,6 +34,11 @@ export class NewsapiservicesService {
   // business news function
   bizNewsProperties() : Observable<any> {
     return this._http.get(this.bizNewsUrl);
+  }
+
+  // digicell business news function
+  digiNewsProperties() : Observable<any> {
+    return this._http.get(this.digiNewsUrl);
   }
 
 }
