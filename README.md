@@ -1,7 +1,7 @@
-# QuoteHub
+# DigiNews
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.     
-![digi_news](#)
+![digi_news](https://github.com/ShaviyaVictor/digi_news/blob/main/src/assets/digi_news_screenshot.png)
 
 ## Project Description
 The project is all about building *consuming a news API.*    
@@ -13,7 +13,7 @@ The user should be able to:
 
 #### Live link to site
 The project was deployed to GitHub pages for publication.     
-To view the [project's live site](https://github.com/ShaviyaVictor/digi_news/blob/main/src/assets/digi_news_screenshot.png).
+To view the [project's live site](#).
 
 #### Author
 **Victor Shaviya**
