@@ -1,4 +1,4 @@
-# QuoteHub
+# DigiNews
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.     
 ![digi_news](https://github.com/ShaviyaVictor/digi_news/blob/main/src/assets/digi_news_screenshot.png)
